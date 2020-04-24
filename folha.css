@@ -1,0 +1,16 @@
+header.masthead {
+  text-align: center;
+  color:white;
+  background-image: url("img/foto1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+header.masthead .intro-text {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+footer .p .text-center {color: white;}
