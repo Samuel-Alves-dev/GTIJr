@@ -29,8 +29,7 @@
 
 <body>
   <div class="container-fluid px-0">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <!--Depois colocar fixed-top-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
       <a class="navbar-brand" href="#">
         <i class="fas fa-barcode"></i> 446 Cursos
       </a>
@@ -55,7 +54,7 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
-              <i class="fas fa-book"></i> Cursos
+              <i class="fas fa-graduation-cap"></i> Cursos
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="#">HTML</a>
@@ -83,9 +82,9 @@
     <div class="masthead">
       <div class="container">
         <div class="intro-text">
-          <div class="intro-lead-in">Chegou a sua hora de aprender!</div>
-          <div class="intro-heading">O maior site Dev do Brasil</div>
-          <a class="btn btn-success btn-xl text-uppercase js-scroll-trigger" href="#services">Mais Cursos</a>
+          <div class="intro-lead-in"><mark>Chegou a sua hora de aprender!</div></mark>
+          <div class="intro-heading"><mark>No maior site Dev do Brasil</div></mark>
+          <a class="btn btn-success btn-lg text-uppercase js-scroll-trigger" href="#services">Veja nossos Cursos</a>
         </div>
       </div>
     </div>
@@ -95,10 +94,10 @@
 
 
   <div class="container curso mt-5">
-    <h1 class="text-center">
-      <i class="fas fa-graduation-cap"></i> Cursos
-
-    </h1>
+    <div class="text-center">
+      <h2 class="section-heading text-uppercase">Cursos <i class="fas fa-graduation-cap"></i></h2>
+      
+    </div>
     <hr>
     <div class="row">
       <div class="card mx-auto" style="width: 18rem;">
@@ -160,17 +159,56 @@
     </p>
 
 
-  </div>
-<!--Final do Container Cursos-->
+  </div><!--Final do Container Cursos-->
 
   <div class="container time mt-5">
-    <h1 class="text-center">Nosso Time!</h1>
-    <h2>Professor Dr. Fulano</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam repellendus aspernatur voluptas quisquam,
-      odio eveniet doloribus pariatur, sunt distinctio repudiandae tempore tenetur delectus vero expedita provident
-      debitis, voluptates iure veniam.</p>
+    <div class="text-center">
+      <h2 class="section-heading text-uppercase">Nosso Glorioso Time!</h2>
+      <h5 class="section-subheading text-muted">Com os profissionais mais conceituados do mercado.</h5>
+    </div>    
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="nosso-time">
+          <img class="mx-auto rounded-circle" src="img/nossotime/fabioakita.jpeg">
+          <h4>Fábio Akita</h4>
+          <p class="text-muted">Programador Sênior (Akita on Rails)</p>
+          <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a> 
+        </div>
+      </div>
+    
+      <div class="col-lg-4">
+        <div class="nosso-time">
+          <img class="mx-auto rounded-circle mt-4" src="img/nossotime/gustavoguanabara.jpeg">
+          <h4>Gustavo Guanabara</h4>
+          <p class="text-muted">Programador Sênior (Curso Em Video)</p>
+          <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a> 
+        </div>
+      </div>
 
-  </div>
+      <div class="col-lg-4">
+        <div class="nosso-time">
+          <img class="mx-auto rounded-circle mt-2" src="img/nossotime/linus.jpeg">
+          <h4>Linus Torvalds</h4>
+          <p class="text-muted">Programador Sênior (Criador do Kernel Linux)</p>
+          <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a><a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a> 
+        </div>
+      </div>
+      
+      
+      <div class="row mt-4">
+        <div class="col-lg-9 mx-auto text-center"><p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p></div>
+      </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div><!--FINAL da Row-->
+  </div><!--FiNal da Container do Time-->
 
 
   <footer class="jumbotron jumbotron-fluid bg-dark mb-0">
